@@ -1,0 +1,156 @@
+/* tablet device */
+@media (max-width: 1176px) {
+    .container {
+        width: 100%;
+    }
+
+    .home {
+        padding: 30px 15px 60px 15px;
+    }
+}
+
+@media (max-width: 1029px) {
+
+    /* player list */
+    .player-list {
+        padding: 47px 0;
+    }
+
+    .single-player {
+        width: 46%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .home-content h1 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+
+
+    .single-player {
+        width: 45%;
+    }
+
+    .home-img {
+        padding-top: 50px;
+    }
+
+    .highlight {
+        padding: 0px 0 20px 0;
+    }
+
+
+}
+
+/* mobile device */
+@media (max-width: 767px) {
+
+    /* header css */
+    header .container {
+        align-items: unset;
+        flex-direction: column;
+    }
+
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    header nav a {
+        padding: 0 0 10px 0;
+    }
+
+    header .btn {
+        text-align: left;
+    }
+
+    /* home css */
+    .home-wrap {
+        flex-direction: column;
+    }
+
+    .home-content {
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .home-content h1 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .home-img {
+        width: 100%;
+    }
+
+
+
+
+
+    /* player list */
+    .player-wrap {
+        flex-direction: column;
+    }
+
+    .player-list {
+        padding: 47px 0;
+    }
+
+    .single-player {
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+
+    .single-player:last-child {
+        margin: 0;
+    }
+
+    /* highlight css */
+    .highlight {
+        padding: 0px 0 20px 0;
+        height: 100%;
+    }
+
+    .highlight-wrap {
+        flex-direction: column;
+    }
+
+    .highlight-content {
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .highlight-content h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .highlight-content p {
+        font-size: 10px;
+
+    }
+
+    .highlight-content .link-button {
+        padding: 5px 18px;
+
+    }
+
+
+    /* footer css */
+    footer {
+        padding: 5px 0 30px 0;
+    }
+
+    footer .footer-top img {
+        width: 70%;
+    }
+}
